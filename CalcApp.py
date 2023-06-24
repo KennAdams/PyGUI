@@ -37,7 +37,7 @@ multiply_button=tk.Button(window,text="x",background="grey",foreground="black",c
 divid_button=tk.Button(window,text="/",background="grey",foreground="black",command=lambda: press('/'), height=1, width=3)
 equal_button=tk.Button(window,text="=",background="orange",foreground="black",command=equal, height=3, width=3)
 clear_button=tk.Button(window,text="AC",background="grey",foreground="black",command=AC, height=1, width=10)
-dot_button=tk.Button(window,text=".",foreground="black",command=lambda: press('.'), height=1, width=3)
+dot_button=tk.Button(window,text=".",foreground="black",command=lambda: press('.'), height=1, width=30)
 display_box=tk.Entry(window,textvariable=result,background="white",foreground="black")
 #GUI 
 num0button.grid(column=0,row=5,columnspan=2)
